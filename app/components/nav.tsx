@@ -28,17 +28,23 @@ export const Navigation: React.FC = () => {
 			>
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
+					    <Link
+							href="/services"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							服務項目
+						</Link>
 						<Link
 							href="/projects"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Projects
+							客戶案例
 						</Link>
 						<Link
 							href="/contact"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Contact
+							聯絡我們
 						</Link>
 					</div>
 
