@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             客戶案例
           </h2>
           <p className="mt-4 text-zinc-400">
-            Some of the projects are from work and some are on my own time.
+            我們與不同產業的客戶合作，針對實際需求並結合實務經驗提出合適的解決方案，這些案例展現我們的實力。
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
