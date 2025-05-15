@@ -1,12 +1,12 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Smartphone } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
+		icon: <Smartphone size={20} />,
 		href: "https://line.me/R/ti/p/chianbing",
 		label: "Line",
 		handle: "chianbing",
